@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+
+}
+.main{
+    position: relative;
+    width: 100%;
+    background-color:#F6F6EE;
+
+}
+.nav{
+    
+    background-color: #F6F6EE;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 5vw;
+
+}
+.aa{
+    display: flex;
+    gap: 40px;
+}
+.aa a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: Gilroy;
+}
+.nav span{
+    font-weight: 900;
+}
+.text1{
+    height: 50vh;
+    width: 100%;
+    background-color: #F6F6EE;
+    /* font-family: Playfair Display; */
+
+}
+.text{
+    
+    width: 50%;
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+.text h1{
+    font-size: 55px;
+    font-family: Playfair Display;
+}
+.text p{
+    width: 55%;
+    font-size: 17px;
+    margin: 10px auto;
+    /* padding: 10px 0; */
+}
+button{
+    padding: 5px 9px;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+}
+.img{
+    width: 100%;
+
+}
+.img img{
+    width: 100%;
+}
+.dec{
+    padding-top: 4vh;
+    padding-bottom: 22vh;
+    display: flex;
+    background-color:#F6F6EE;
+}
+.dleft{
+    position: relative;
+    text-align: right;
+    width: 50%;
+    /* background-color: blueviolet; */
+    font-family:Gilroy ;
+    padding-right: 30px;
+    border-right: 2px solid black;
+
+}
+.dleft h1{
+    padding-left: 250px;
+    padding-bottom: 7px;
+}
+.line{
+    height: 1.5px;
+    width: 25px;
+    background-color: black;
+    position: absolute;
+    right: 30px;
+    /* margin-bottom: 20px; */
+
+}
+.dleft p{
+    padding-left: 300px;
+    padding-top: 10px;
+}
+.dright{
+    display: flex;
+
+    padding-left: 20px;
+    width: 50%;
+    /* background-color:brown; */
+    font-family: Gilroy;
+    
+}
+
+.ri{
+    padding-right: 20px;
+    padding-top: 9px;
+    font-size: 18px;
+
+}
+.dright p{
+
+    padding-right: 355px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    font-size: 13px;
+}
